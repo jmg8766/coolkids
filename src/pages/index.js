@@ -8,12 +8,12 @@ import AnimatedBanner from "../components/animatedBanner"
 
 const Centered = Styled.div`
   position: absolute;
-  top: 0;
+  top: 200px;
   bottom: 0;
   left: 0;
   right: 0;
   width: 550px;
-  height: 600px;
+  max-height: 600px;
   margin: auto;
   min-width: 315px;
   .textLogo {
