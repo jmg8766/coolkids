@@ -116,6 +116,7 @@ const Centered = Styled.div`
 `
 
 const Banner = Styled.div`
+  position: fixed;
   margin-left: calc(-1200px + 60vw);
   margin-right: calc(-1200px + 60vw);
   svg {
@@ -154,7 +155,7 @@ export default ({ data }) =>
         </p>
         <form name="newsletter-signup" method="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="newsletter-signup" />
-          <input type="email" name="email" placeholder="Enter email address here"/>
+          <input type="email" name="email" placeholder="Enter email address here" required/>
           <br/>
           <input className="submitButton" type="submit" value="Submit"/>
         </form>
