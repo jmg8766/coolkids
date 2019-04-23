@@ -153,6 +153,7 @@ export default ({ data }) =>
           Our first koozies are still being designed. Sign up for our newsletter to recieve special offers and be notified when they are ready
         </p>
         <form name="newsletter-signup" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="newsletter-signup" />
           <input type="email" name="email" placeholder="Enter email address here"/>
           <br/>
           <input className="submitButton" type="submit" value="Submit"/>
