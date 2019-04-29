@@ -88,6 +88,7 @@ const Centered = Styled.div`
     100% { opacity: 1; }
   }
   @media(max-width: 600px) {
+    top: 50px;
     width: 100%;
     .textLogo {
       display: block;
